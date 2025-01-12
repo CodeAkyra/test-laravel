@@ -5,20 +5,21 @@
 
 <?php
 
+
 // If '/', URL will be "localhost:8000" to view home.blade.php 
-Route::get('/', function(){
-    return view('home')
-});
+// Route::get('/', function(){
+//     return view('home');
+// });
 
 // If '/about', URL will be "localhost:8000/about" to view about.blade.php
-Route::get('/about', function(){
-    return view('about')
-})
+// Route::get('/about', function(){
+//     return view('about');
+// });
 
 // If '/data', URL will be "localhost:8000/data" and it will return 'Hello!' string
-Route::get('/data', function(){
-    return 'Hello!';
-})
+// Route::get('/data', function(){
+//     return 'Hello!';
+// });
 
 Route::get('/data', function(){
     return response()->json(['number' => 42]);
