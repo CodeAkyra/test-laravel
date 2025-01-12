@@ -19,6 +19,9 @@
         <a href="/contact">Contact</a> --}}
     </nav>
 
+    <h1>
+        This is the {{ $headerTitle }}
+    </h1>
 
     {{ $slot }}
 </body>
