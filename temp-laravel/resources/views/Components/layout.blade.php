@@ -20,6 +20,7 @@
     </nav>
 
     <h1>
+        {{-- nag aact siya na parang {{ $slot }} pero may specific name siya --}}
         This is the {{ $headerTitle }}
     </h1>
 
