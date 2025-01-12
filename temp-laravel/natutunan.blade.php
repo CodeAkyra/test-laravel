@@ -158,3 +158,13 @@ Route::post('/user', [UserController::class, 'store']);
 
 
 ?>
+
+
+
+{{-- API RELATED yung nasa taas --}}
+{{-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ --}}
+
+
+
+
+
